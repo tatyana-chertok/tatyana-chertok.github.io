@@ -10,74 +10,265 @@
 </head>
 
 <body>
-    <section class="section main">
-        <div class="container">
+    <ul class="wrapper">
+        <section class="section section--align--top hero">
+            <div class="container hero__container">
 
-            <header class="header">
-                <img class="logo" src="./img/logo.svg" class="logo__img" alt="Mr. Burger logo">
-               <div class="header__btns">
-                <nav class="menu">
-                    <ul class="menu__list">
-                        <li class="menu__item">
-                            <a href="#">О НАС</a>
-                        </li>
-                        <li class="menu__item">
-                            <a href="#">БУРГЕРЫ</a>
-                        </li>
-                        <li class="menu__item">
-                            <a href="#">КОМАНДА</a>
-                        </li>
-                        <li class="menu__item">
-                            <a href="#">МЕНЮ</a>
-                        </li>
-                        <li class="menu__item">
-                            <a href="#">ОТЗЫВЫ</a>
-                        </li>
-                        <li class="menu__item">
-                            <a href="#">КАК МЫ РАБОТАЕМ</a>
-                        </li>
-                        <li class="menu__item">
-                            <a href="#">КОНТАКТЫ</a>
-                        </li>
-                    </ul>
-              
-                </nav>
+                <header class="header">
+                    <img class="logo" src="./img/logo.svg" class="logo__img" alt="Mr. Burger logo">
+                    <div class="header__btns">
+                        <nav class="menu">
+                            <ul class="menu__list">
+                                <li class="menu__item">
+                                    <a href="#">О НАС</a>
+                                </li>
+                                <li class="menu__item">
+                                    <a href="#">БУРГЕРЫ</a>
+                                </li>
+                                <li class="menu__item">
+                                    <a href="#">КОМАНДА</a>
+                                </li>
+                                <li class="menu__item">
+                                    <a href="#">МЕНЮ</a>
+                                </li>
+                                <li class="menu__item">
+                                    <a href="#">ОТЗЫВЫ</a>
+                                </li>
+                                <li class="menu__item">
+                                    <a href="#">КАК МЫ РАБОТАЕМ</a>
+                                </li>
+                                <li class="menu__item">
+                                    <a href="#">КОНТАКТЫ</a>
+                                </li>
+                            </ul>
 
-                <a class="btn" href="#">ЗАКАЗАТЬ</a>
+                        </nav>
+                        <a class="btn" href="#">ЗАКАЗАТЬ</a>
 
-                
+                    </div>
+                </header>
 
+                <div class="hero__content">
+                    <div class="hero__image">
+                        <img src="./img/burger-img.png" class="hero__image-element" alt="burger">
+
+                    </div>
+
+                    <div class="hero__text">
+                        <h1 class="section__title">МЫ ДЕЛАЕМ</h1>
+                        <h2 class="hero__desc">натуральные <br>
+                            бургеры</h2>
+                    </div>
                 </div>
-            </header>
 
-            <div class="container container_top">
-                <aside class="sidebar">           
-             
+                <button class="scroll-down" type="button">
+                    <img src="./img/arrow-scroll.png" alt="scroll-down">
+                </button>
+            </div>
+        </section>
 
-
-                   
-
-                </aside>
-
-                <main class="content">
-                    <div class="burger-picture">
-
-                    </div>
-
-                    <div class="welcome">
-                        <div class="welcome__title">
-                            <h2>Мы делаем</h2>
+        <section class="section features">
+            <div class="container">
+                <h2 class="section__title section__title--centered section__title--color--black"> Мы лучшие </h2>
+                <ul class="features__list">
+                    <li class="features__item feature">
+                        <div class="feature__img">
+                            <img class="feature__img-elem" src="./img/meat.svg" alt="fried chiken">
                         </div>
-                        <div class="welcome__text">
-                            <p>натуральные <br>
-                                бургеры</p>
+                        <div class="feature__content">
+                            <h3 class="feature__title">100% свежее мясо</h3>
+                            <div class="feature__text">
+                                Драма представляет собой деструктивный цикл.
+                                Анапест представляет собой анапест. Ямб неравномерен.
+                            </div>
                         </div>
-                    </div>
+                    </li>
 
-                </main>
+                    <li class="features__item feature">
+                        <div class="feature__img">
+                            <img class="feature__img-elem" src="./img/hand.svg" alt="fried chiken">
+                        </div>
+                        <div class="feature__content">
+                            <h3 class="feature__title">Ручная сборка</h3>
+                            <div class="feature__text">
+                                Драма представляет собой деструктивный цикл.
+                                Анапест представляет собой анапест.
+                                Первое полустишие притягивает сюжетный реформаторский пафос.
+                            </div>
+
+                        </div>
+                    </li>
+
+                    <li class="features__item feature">
+                        <div class="feature__img">
+                            <img class="feature__img-elem feature__img-elem--another" src="./img/natural.svg"
+                                alt="fried chiken">
+                        </div>
+                        <div class="feature__content">
+                            <h3 class="feature__title">Натуральные ингредиенты</h3>
+                            <div class="feature__text">
+                                Драма представляет собой деструктивный цикл.
+                                Анапест представляет собой анапест.
+                            </div>
+
+                        </div>
+                    </li>
+                </ul>
+                </h2>
             </div>
 
-    </section>
+        </section>
+
+        <section class="reviews">
+            <ul class="reviews__list">
+                <li class="reviews__item review">
+                    <div class="review__img-wrapper">
+                        <img src="./img/photo1.jpg" alt="smiling girl" class="review__pic">
+                    </div>
+                    <div class="review__hover">
+                        <div class="review__username">Константин Спилберг</div>
+                        <div class="review__content">
+                            <p>
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus, reprehenderit
+                                architecto repudiandae temporibus, veritatis tempora sit voluptate quisquam dignissimos
+                                fuga cumque accusantium saepe deserunt laborum incidunt optio? Impedit, incidunt
+                                explicabo?
+                            </p>
+                        </div>
+
+                        <a href="#" class="btn btn--review">Подробнее</a>
+                    </div>
+                </li>
+                <li class="reviews__item review">
+                    <div class="review__img-wrapper">
+                        <img src="./img/photo2.jpg" alt="smiling girl" class="review__pic">
+                    </div>
+                    <div class="review__hover">
+                        <div class="review__username">Константин Спилберг</div>
+                        <div class="review__content">
+                            <p>
+                                Мысли все о них и о них, о них и о них. Нельзя устоять, 
+                                невозможно забыть... Никогда не думал, что булочки могут 
+                                быть такими мягкими, котлетка такой сочной, а сыр таким расплавленным.
+                            </p>
+                        </div>
+
+                        <a href="#" class="btn btn--review">Подробнее</a>
+                    </div>
+                </li>
+                <li class="reviews__item review">
+                    <div class="review__img-wrapper">
+                        <img src="./img/photo3.jpg" alt="smiling girl" class="review__pic">
+                    </div>
+                    <div class="review__hover">
+                        <div class="review__username">Константин Спилберг</div>
+                        <div class="review__content">
+                            <p>
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus, reprehenderit
+                                architecto repudiandae temporibus, veritatis tempora sit voluptate quisquam dignissimos
+                                fuga cumque accusantium saepe deserunt laborum incidunt optio? Impedit, incidunt
+                                explicabo?
+                            </p>
+                        </div>
+
+                        <a href="#" class="btn btn--review">Подробнее</a>
+                    </div>
+                </li>
+                <li class="reviews__item review">
+                    <div class="review__img-wrapper">
+                        <img src="./img/photo4.jpg" alt="smiling girl" class="review__pic">
+                    </div>
+                    <div class="review__hover">
+                        <div class="review__username">Константин Спилберг</div>
+                        <div class="review__content">
+                            <p>
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus, reprehenderit
+                                architecto repudiandae temporibus, veritatis tempora sit voluptate quisquam dignissimos
+                                fuga cumque accusantium saepe deserunt laborum incidunt optio? Impedit, incidunt
+                                explicabo?
+                            </p>
+                        </div>
+
+                        <a href="#" class="btn btn--review">Подробнее</a>
+                    </div>
+                </li>
+                <li class="reviews__item review">
+                    <div class="review__img-wrapper">
+                        <img src="./img/photo5.jpg" alt="smiling girl" class="review__pic">
+                    </div>
+                    <div class="review__hover">
+                        <div class="review__username">Константин Спилберг</div>
+                        <div class="review__content">
+                            <p>
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus, reprehenderit
+                                architecto repudiandae temporibus, veritatis tempora sit voluptate quisquam dignissimos
+                                fuga cumque accusantium saepe deserunt laborum incidunt optio? Impedit, incidunt
+                                explicabo?
+                            </p>
+                        </div>
+
+                        <a href="#" class="btn btn--review">Подробнее</a>
+                    </div>
+                </li>
+                <li class="reviews__item review">
+                    <div class="review__img-wrapper">
+                        <img src="./img/photo6.jpg" alt="smiling girl" class="review__pic">
+                    </div>
+                    <div class="review__hover">
+                        <div class="review__username">Константин Спилберг</div>
+                        <div class="review__content">
+                            <p>
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus, reprehenderit
+                                architecto repudiandae temporibus, veritatis tempora sit voluptate quisquam dignissimos
+                                fuga cumque accusantium saepe deserunt laborum incidunt optio? Impedit, incidunt
+                                explicabo?
+                            </p>
+                        </div>
+
+                        <a href="#" class="btn btn--review">Подробнее</a>
+                    </div>
+                </li>
+                <li class="reviews__item review">
+                    <div class="review__img-wrapper">
+                        <img src="./img/photo7.jpg" alt="smiling girl" class="review__pic">
+                    </div>
+                    <div class="review__hover">
+                        <div class="review__username">Константин Спилберг</div>
+                        <div class="review__content">
+                            <p>
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus, reprehenderit
+                                architecto repudiandae temporibus, veritatis tempora sit voluptate quisquam dignissimos
+                                fuga cumque accusantium saepe deserunt laborum incidunt optio? Impedit, incidunt
+                                explicabo?
+                            </p>
+                        </div>
+
+                        <a href="#" class="btn btn--review">Подробнее</a>
+                    </div>
+                </li>
+                <li class="reviews__item review">
+                    <div class="review__img-wrapper">
+                        <img src="./img/photo8.jpg" alt="smiling girl" class="review__pic">
+                    </div>
+                    <div class="review__hover">
+                        <div class="review__username">Константин Спилберг</div>
+                        <div class="review__content">
+                            <p>
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus, reprehenderit
+                                architecto repudiandae temporibus, veritatis tempora sit voluptate quisquam dignissimos
+                                fuga cumque accusantium saepe deserunt laborum incidunt optio? Impedit, incidunt
+                                explicabo?
+                            </p>
+                        </div>
+
+                        <a href="#" class="btn btn--review">Подробнее</a>
+                    </div>
+                </li>
+            </ul>
+
+        </section>
+
+        </div>
 </body>
 
 </html>
